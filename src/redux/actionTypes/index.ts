@@ -1,0 +1,17 @@
+const SET_TODO_LIST = "SET_TODO_LIST";
+const ADD_NEW_TODO = 'ADD_NEW_TODO';
+const UPDATE_TODO = 'UPDATE_TODO';
+const REMOVE_TODO = 'REMOVE_TODO';
+const CLEAR_TODO = 'CLEAR_TODO';
+const WATCH_SET_TODO_LIST = "WATCH_SET_TODO_LIST";
+
+const actionTypes = {
+    SET_TODO_LIST,
+    WATCH_SET_TODO_LIST,
+    ADD_NEW_TODO,
+    UPDATE_TODO,
+    REMOVE_TODO,
+    CLEAR_TODO
+};
+
+export {actionTypes}
